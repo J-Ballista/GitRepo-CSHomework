@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebQuestionaire.Models.Question>
+
+@{
+    
+}
+<form class="row" asp-action="Output" asp-controller="Question">
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+        </tr>
+        @foreach (var q in Model)
+        {
+            var answerId = "answer_" + q.QuestionId.ToString();
+            <tr>
+                <td>@q.Text</td>
+                <td>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="@answerId" id="yes" value="Yes" />
+                    <label for="no">No</label>
+                    <input type="radio" name="@answerId" id="no" value="No" />
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Submit" />
+            </td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F20D95E3-6498-4BC9-822B-7654D4DCB4C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{992B3BDC-92FE-4AC4-850A-E1D0EAE6EFC9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebQuestionaire", "src\WebQuestionaire\WebQuestionaire.xproj", "{F120FE85-16DA-441E-BBA8-10F9F4F69D0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F120FE85-16DA-441E-BBA8-10F9F4F69D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F120FE85-16DA-441E-BBA8-10F9F4F69D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F120FE85-16DA-441E-BBA8-10F9F4F69D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F120FE85-16DA-441E-BBA8-10F9F4F69D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F120FE85-16DA-441E-BBA8-10F9F4F69D0E} = {F20D95E3-6498-4BC9-822B-7654D4DCB4C4}
+	EndGlobalSection
+EndGlobal
